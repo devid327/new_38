@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon flatCurveSniper.ts",
+    "build": "tsc",
+    "start": "nodemon dist/index.js"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@coral-xyz/borsh": "^0.31.1",
+    "@moonit/sdk": "^1.0.0",
+    "@solana-program/memo": "^0.7.0",
+    "@solana-program/system": "^0.7.0",
+    "@solana/kit": "^2.1.0",
+    "@solana/web3.js": "1.95.8",
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jito-ts": "^4.2.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1",
+    "typescript": "^5.6.3",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
